@@ -1,0 +1,126 @@
+@media (min-width: 992px) {
+    .container {
+        max-width: 984px !important;
+    }
+
+    .header h1 {
+        position: relative;
+        top: -60px;
+    }
+
+    .footer .view-item {
+        background: white;
+        padding: 18px;
+        width: 31%;
+        margin-right: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer .view-item {
+        margin-top: 18px;
+        background: white;
+        padding: 18px;
+        width: 95%;
+        margin-right: 18px;
+    }
+
+    .footer .view-item .detail-btn,
+    .footer .view-item .product-description {
+        display: none;
+    }
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial;
+    color: #383838;
+}
+
+p {
+    color: #757575;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.header-logo {
+    height: 200px;
+    background-image: url('../../assets/img/background-image.jpg');
+    background-position-y: -400px;
+    background-size: cover;
+}
+
+.logo {
+    border-radius: 268px;
+    width: 142px;
+    position: relative;
+    left: 10px;
+    top: -72px;
+}
+
+.content {
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.content p {
+    padding-top: 24px;
+}
+
+.footer {
+    padding-top: 36px;
+    background: #f8f8f8;
+    padding-bottom: 36px;
+}
+
+.footer .search {
+    padding-left: 20px;
+    color: #757575;
+    border-radius: 3px;
+    font-size: 12px;
+    border: 1px solid #d8d6d6;
+    margin-right: 18px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.footer .title {
+    padding-bottom: 18px;
+}
+
+.footer .detail-btn {
+    background-color: #FFA500;
+    border-radius: 3px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.footer .item-logo {
+    width: 80px;
+    border-radius: 5px;
+}
+
+.footer .view-item .detail {
+    margin-top: 24px;
+}
+
+.footer .view-item .detail .title {
+    text-align: right;
+}
+
+.info-button {
+    color: #009DF2;
+    border: 1px solid #009DF2;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 3px;
+    font-family: Arial;
+}
